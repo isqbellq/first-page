@@ -132,6 +132,7 @@ hr.light-100 {
 	margin-bottom: 1rem;
 }
 
+
 /*---Media Queries---*/
 @media (max-width: 992px) {
 	.social a {
@@ -159,10 +160,10 @@ hr.light-100 {
 	font-size: 200%;
 }
 .social a {
-	font-size: 2.5em;
-	padding: 1.2rem;
+		font-size: 2.5em;
+		padding: 1.2rem;
+	}
 }
-}	
 @media (max-width: 576px) {
 .carousel-caption { 
 	top: 50%;
@@ -172,12 +173,12 @@ hr.light-100 {
 }
 .carousel-caption h4 {
 	font-size: 110%;
-        transform: translateY(-20%);
+    transform: translateY(-20%);
 }
 .carousel-caption .btn {
 	font-size: 70%;
 	padding: 3px 7px;
-        transform: translateY(-140%);
+    transform: translateY(-140%);
 }
 .carousel-indicators {
 	display: none !important;
@@ -186,7 +187,7 @@ hr.light-100 {
 	font-size: 160%;
 }
 .social a {
-	font-size: 2em;
-	padding: .7rem;
-}
+		font-size: 2em;
+		padding: .7rem;
+	}
 }
