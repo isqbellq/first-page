@@ -196,6 +196,9 @@ hr.light-100 {
 	}
 }
 @media (max-width: 576px) {
+.navbar {
+	height: auto;
+}
 .carousel-caption { 
 	top: 53%;
 }
@@ -228,6 +231,7 @@ hr.light-100 {
 }
 .social a {
 		font-size: 2em;
-		padding: .7rem;
+		padding: .5rem;
+		margin: 0;
 	}
 }
