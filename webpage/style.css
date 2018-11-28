@@ -14,8 +14,13 @@ html, body {
 .nav-link {
 	font-size: 1.1em !important;
 }
+#slides {
+	background-color: #afd1bf; 
+}
+.carousel.inner {
+	padding-top: 75px;
+}
 .carousel-inner img {
-	padding-top: 74px;
 	height: 100%;
 	width: 100%;
 }
