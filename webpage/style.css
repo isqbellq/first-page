@@ -1,8 +1,8 @@
 html, body {
- height: 100%;
- width: 100%;
- color: #222;
- font-family: 'Niramit', sans-serif;
+	height: 100%;
+	width: 100%;
+	color: #222;
+	font-family: 'Niramit', sans-serif;
 }
 .navbar {
 	height: 75px; 
@@ -14,24 +14,26 @@ html, body {
 .nav-link {
 	font-size: 1.1em !important;
 }
-/* full-screen images */
 .carousel-inner img {
+	padding-top: 74px;
 	height: 100%;
 	width: 100%;
 }
 .carousel-caption {
-	position: absolute; 
-	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-40%);
 }
 .carousel-caption h1 {
-	size: 500%;
+	size: 600%;
+	font-weight: normal;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 3px #000;
+	text-shadow: 1px 1px 15px #222;
 }
-.carousel-caption h4 {
+.carousel-caption h3 {
 	font-size: 200%;
-	font-weight: 500;
-	text-shadow: 1px 1px 10px #000;
+	font-weight: normal;
+	text-shadow: 1px 1px 15px #222;
 	padding-bottom: 1rem;
 }
 .wht-txt {
@@ -42,8 +44,8 @@ html, body {
 	border: 1px solid #444 !important;
 }
 .btn-primary:hover {
-	background-color: #777 !important;
-	border: 1px solid #777 !important;
+	background-color: #afd1bf !important;
+	border: 1px solid #afd1bf !important;
 	color: #222 !important;
 }
 .jumbotron {
@@ -148,13 +150,13 @@ hr.light-100 {
 .carousel-caption h1 {
 	font-size: 350%;
 }
-.carousel-caption h4 {
+.carousel-caption h3 {
 	font-size: 140%;
 	font-weight: 400;
-	padding-bottom: .2rem;
+	padding-bottom: .7rem;
 }
 .carousel-caption .btn {
-	font-size: 95%;
+	font-size: 100%;
 	padding: 8px 14px;
 }
 .display-4 {
@@ -170,18 +172,20 @@ hr.light-100 {
 	top: 50%;
 }
 .carousel-caption h1 {
-	font-size: 250%;
+	font-size: 280%;
 }
-.carousel-caption h4 {
-	font-size: 110%;
-    transform: translateY(-20%);
+.carousel-caption h3 {
+	font-size: 130%;
+	padding-bottom: .3rem;
 }
 .carousel-caption .btn {
-	font-size: 70%;
+	font-size: 80%;
 	padding: 3px 7px;
-    transform: translateY(-140%);
 }
 .carousel-indicators {
+	display: none !important;
+}
+.carousel-control {
 	display: none !important;
 }
 .display-4 {
