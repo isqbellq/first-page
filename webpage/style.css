@@ -17,9 +17,6 @@ html, body {
 #slides {
 	background-color: #afd1bf; 
 }
-.carousel.inner {
-	padding-top: 75px;
-}
 .carousel-inner img {
 	padding-top: 75px;
 	height: 100%;
