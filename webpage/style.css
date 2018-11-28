@@ -169,18 +169,21 @@ hr.light-100 {
 }
 @media (max-width: 576px) {
 .carousel-caption { 
-	top: 50%;
+	top: 53%;
+}
+.carousel-caption img {
 }
 .carousel-caption h1 {
 	font-size: 280%;
 }
 .carousel-caption h3 {
-	font-size: 130%;
+	font-size: 150%;
 	padding-bottom: .3rem;
 }
 .carousel-caption .btn {
-	font-size: 80%;
-	padding: 3px 7px;
+	display: none;
+/*	font-size: 80%;
+	padding: 3px 7px;*/
 }
 .carousel-indicators {
 	display: none !important;
