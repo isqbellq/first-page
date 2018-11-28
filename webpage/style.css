@@ -21,6 +21,7 @@ html, body {
 	padding-top: 75px;
 }
 .carousel-inner img {
+	padding-top: 75px;
 	height: 100%;
 	width: 100%;
 }
