@@ -222,7 +222,7 @@ hr.light-100 {
 /*	font-size: 80%;
 	padding: 3px 7px;*/
 }
-.carousel-indicators {
+.carousel-control-prev, .carousel-control-next {
 	display: none !important;
 }
 .carousel-control {
