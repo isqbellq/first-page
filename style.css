@@ -236,7 +236,7 @@ hr.light-100 {
 	display: none !important;
 }
 .display-4 {
-	font-size: 160%;
+	font-size: 250% !important;
 }
 .padding {
 	padding-left: 20px;
