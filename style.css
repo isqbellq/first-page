@@ -80,6 +80,10 @@ html, body {
 	margin-bottom: 1rem;
 	opacity: 0.7;
 }
+.three-col {
+	padding-right: 40px !important;
+	padding-left: 40px !important;
+}
 .cards {
 	margin-right: 20px !important;
 	margin-left: 20px !important;
@@ -169,7 +173,7 @@ footer a {
 }
 hr.light-100 {
 	border-top: 1px solid #d5d5d5 !important;
-	width: 100% !important;
+	width: 85% !important;
 	margin-top: .8rem;
 	margin-bottom: 1rem;
 	opacity: 0.5;
@@ -238,6 +242,10 @@ hr.light-100 {
 }
 .carousel-control {
 	display: none !important;
+}
+.three-col {
+	padding-right: 13px !important;
+	padding-left: 13px !important;
 }
 .cards {
 	margin: 0 !important;
